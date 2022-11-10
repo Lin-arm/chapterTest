@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: #fff;
+    padding: 20px;
+    background-color: #FF770F;
+    position: sticky;              /*加上"top: 0"将header固定在顶部*/
+    top: 0;
+    z-index: 2;                 /* z-index的值越大，越优先显示在最上层 */
+}
+#div1,#div2,#div3{
+    display: inline-block;     /*设置div为行内样式*/
+}
+#div1{
+    float: left;
+}
+#div2{
+    float: contour;
+}
+#div3{
+    float: right;
+    width: 250px;
+    height: 40px;
+}

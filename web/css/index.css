@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background: url("https://pic1.imgdb.cn/item/6357f57916f2c2beb1049df7.jpg");
+    /*background-image: url("/images/wallpaper_09.jpg");*/
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/*@font-face {*/
+/*    font-family: "Tian_Yingzhang";*/
+/*    src: url("/Tian_Yingzhang_running_script.ttf");*/
+/*}*/
+#container{
+    min-height: 100%;
+    display: flex;    /*容器为flex布局*/
+    flex-direction: column;  /* 方向为纵向，保持正常的从上到下文档流 */
+}
+header,footer{
+    color: #fff;
+    padding: 20px;
+}
+header{
+    background-color: #FF770F;
+    position: sticky;              /*加上"top: 0"将header固定在顶部*/
+    top: 0;
+    z-index: 2;                 /* z-index的值越大，越优先显示在最上层 */
+}
+main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed #9dff00;
+}
+footer{
+    margin-top: auto;     /* 设置footer的上外边距为auto */
+    background-color: #000010;
+    width: 100%;
+    /*position: sticky;              !*加上"bottom: 0"将footer固定在底部*!*/
+    /*bottom: 0;*/
+    /*z-index: 2;                 !* z-index的值越大，越优先显示在最上层 *!*/
+}
+#div_student,#currentTime{
+    text-align: left;
+}
+#div1,#div2,#div3{
+    display: inline-block;     /*设置div为行内样式*/
+}
+#div1{
+    float: left;
+}
+#div2{
+    float: contour;
+}
+#div3{
+    float: right;
+    width: 250px;
+    height: 40px;
+}
+div.chapter{
+    padding-top: 30px;
+}
+ul{
+    margin: 0 10px;
+    background: burlywood;
+}
+li{
+    height: 130px;
+    padding: 0;
+    float: left;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    list-style: none;
+    outline: none;
+    width: 33.3% !important;
+    border-radius: 30px;          /*圆角*/
+}
+li.empty{
+    background: #cef8d0;
+    position: relative;
+    text-align: center;
+    opacity: 0.6;                 /*透明度(0~1)*/
+}
+li.empty:hover{                   /*鼠标悬停时*/
+    opacity: 0.8;
+}
+li.double{
+    background: #f6dac5;
+    display: flex;
+    justify-content: center;      /*水平居中*/
+    align-content: center;        /*垂直居中*/
+    position: relative;
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.25);       /*阴影*/
+    opacity: 0.8;
+}
+li.double:hover{
+    opacity: 0.9;
+}
+ul li.double a p{
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+a,abbr{
+    text-decoration: none;   /*去链接下划线*/
+}
+.ch04,.ch05,.ch06,.ch_test{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+/* a:hover鼠标悬停其上时的链接样式 */
+ul li a:hover{
+    background-color: #f8ba8a;
+}
+#div_student{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.p_student,.h4_student,.h4_studentID{
+    display: inline;       /* 去掉自动换行 */
+}
+.h4_student{
+    font-family: 全新硬笔行书简;
+}

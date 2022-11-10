@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    margin-top: auto;     /* 设置footer的上外边距为auto */
+    background-color: #000010;
+    position: fixed;              /*加上"bottom: 0"将footer固定在底部*/
+    bottom: 0;
+    z-index: 2;                 /* z-index的值越大，越优先显示在最上层 */
+}
+#div_student,#currentTime{
+    text-align: left;
+}
+#div_student{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.p_student,.h4_student{
+    display: inline;       /* 去掉自动换行 */
+}
