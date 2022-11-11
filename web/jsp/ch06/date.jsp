@@ -13,7 +13,7 @@
     <title>date</title>
 </head>
 <body>
-    当前时间是:
+    <h3>欢迎访问，现在的时间是:</h3>
         <%
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             String today = sdf.format(new Date());

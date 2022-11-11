@@ -106,7 +106,7 @@
             </li>
             <li class="double">
               <a href="jsp/ch06/include.jsp" target="_blank" class="ch06">
-                <p>include</p>
+                <p>include(课后题1)</p>
               </a>
             </li>
             <li class="double">
@@ -121,7 +121,7 @@
             </li>
             <li class="double">
               <a href="jsp/ch06/dynamicInclude.jsp" target="_blank" class="ch06">
-                <p>include动态包含</p>
+                <p>include动态(课后题2)</p>
               </a>
             </li>
             <li class="double">
@@ -142,6 +142,31 @@
             <li class="double">
               <a href="jsp/ch06/cake/user_register.jsp" target="_blank" class="ch06">
                 <p>蛋糕商城用户注册</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="chapter">
+          <h3><abbr title="第7章-EL表达式和JSTL">&#128640;ch07</abbr></h3><br>
+          <ul title="ch07">
+            <li class="double">
+              <a href="#" target="_blank" class="ch07">
+                <p>暂无</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="chapter">
+          <h3><abbr title="第8章-JavaBean与JSP开发模型">&#128640;ch08</abbr></h3><br>
+          <ul title="ch08">
+            <li class="double">
+              <a href="jsp/ch08/indexB.jsp" target="_blank" class="ch08">
+                <p>登录页面</p>
+              </a>
+            </li>
+            <li class="double">
+              <a href="jsp/ch08/stuInfo.jsp" target="_blank" class="ch08">
+                <p>学生信息</p>
               </a>
             </li>
           </ul>
