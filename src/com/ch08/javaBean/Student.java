@@ -1,5 +1,7 @@
 package com.ch08.javaBean;
 
+import java.io.Serializable;
+
 /**
  * @className: Student
  * @author: Lin
@@ -7,10 +9,10 @@ package com.ch08.javaBean;
  * @date: 2022/11/12 0:52
  * @version: 1.0
  */
-public class Student {
-    private String name = "张三";
-    private int age = 20;
-    private String sex = "男";
+public class Student implements Serializable {
+    private String name;
+    private int age;
+    private String sex;
 
     public Student() {
     }

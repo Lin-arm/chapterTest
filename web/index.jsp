@@ -169,6 +169,21 @@
                 <p>学生信息</p>
               </a>
             </li>
+            <li class="double">
+              <a href="jsp/ch08/addBook.jsp" target="_blank" class="ch08">
+                <p>添加图书</p>
+              </a>
+            </li>
+            <li class="double">
+              <a href="jsp/ch08/email.jsp" target="_blank" class="ch08">
+                <p>邮件发送</p>
+              </a>
+            </li>
+            <li class="double">
+              <a href="jsp/ch08/login.jsp" target="_blank" class="ch08">
+                <p>输入用户名</p>
+              </a>
+            </li>
           </ul>
         </div>
         <div class="chapter">
