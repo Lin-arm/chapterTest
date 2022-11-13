@@ -1,0 +1,70 @@
+body{
+    background: url("https://pic1.imgdb.cn/item/6357ee6216f2c2beb1f6e35b.jpg");
+    /*background-image: url("/images/wallpaper_09.jpg");*/
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h3{
+    margin-left: 113px;
+}
+#outer{
+    width: 750px;
+}
+span{
+    color: #ff0000;
+}
+#div_userlogin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#div_main{
+    width: 20%;
+    height: 35%;
+    margin: auto;
+    margin-right: 20%;
+    background-color: #f6c563;
+    border-radius: 10px;    /*圆角*/
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.25);       /*阴影*/
+    opacity: 0.6;       /*透明度*/
+}
+#div_main:hover{    /*鼠标悬停时*/
+    opacity: 0.8;
+}
+#div_main div{
+    height: 20px;
+    margin-bottom: 15px;
+}
+.ch{
+    width: 80px;
+    text-align: right;
+    float: left;
+}
+.ip{
+    width: 500px;
+    float: left;
+}
+.ip>input{
+    margin-right: 20px;
+    width: 180px;
+    height: 24px;
+    border: 1px;
+    border-radius: 3px;
+}
+#btn{
+    margin-left: 55px;
+}
+#btn>input{
+    margin-right: 30px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border: 5px;
+    border-radius: 5px;
+    background-color: #7cfc00;
+}
+#btn>input:hover{
+    background-color: #00ffff;
+}

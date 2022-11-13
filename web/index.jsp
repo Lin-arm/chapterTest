@@ -147,7 +147,7 @@
           </ul>
         </div>
         <div class="chapter">
-          <h3><abbr title="第7章-EL表达式和JSTL">&#128640;ch07</abbr></h3><br>
+          <h3><abbr title="第7章-EL表达式和JSTL">&#11093;ch07</abbr></h3><br>
           <ul title="ch07">
             <li class="double">
               <a href="#" target="_blank" class="ch07">
@@ -157,7 +157,7 @@
           </ul>
         </div>
         <div class="chapter">
-          <h3><abbr title="第8章-JavaBean与JSP开发模型">&#128640;ch08</abbr></h3><br>
+          <h3><abbr title="第8章-JavaBean与JSP开发模型">&#126980;ch08</abbr></h3><br>
           <ul title="ch08">
             <li class="double">
               <a href="jsp/ch08/indexB.jsp" target="_blank" class="ch08">
@@ -182,6 +182,11 @@
             <li class="double">
               <a href="jsp/ch08/login.jsp" target="_blank" class="ch08">
                 <p>输入用户名</p>
+              </a>
+            </li>
+            <li class="double">
+              <a href="jsp/ch08/model2/register.jsp" target="_blank" class="ch08">
+                <p>用户注册</p>
               </a>
             </li>
           </ul>

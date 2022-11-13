@@ -39,8 +39,8 @@
                 <h4 class="h4_student" style="font-size: 20px;color: aqua">林国清</h4>
             </div>
             <div>
-                <p class="p_student">&nbsp;&nbsp;&nbsp;学号:</p>
-                <h4 class="h4_student" style="font-size: 20px;color: aqua">2020035723021</h4>
+                <p class="p_student">&nbsp;&nbsp;&nbsp;学号尾数:</p>
+                <h4 class="h4_student" style="font-size: 20px;color: aqua">21</h4>
             </div>
         </div>
         <div id="currentTime" class="showTime">当前时间：2022年10月24-10:26:55</div>

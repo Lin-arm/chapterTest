@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>结果提示</title>
+    <link rel="shortcut icon" href="https://pic1.imgdb.cn/item/635d4e8716f2c2beb1396ca7.png">
 </head>
 <body>
     <div align="center">

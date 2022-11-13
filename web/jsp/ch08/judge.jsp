@@ -12,8 +12,10 @@
 <html>
 <head>
     <title>验证反馈界面</title>
+    <link rel="shortcut icon" href="https://pic1.imgdb.cn/item/635d4e8716f2c2beb1396ca7.png">
 </head>
 <body>
+
     <% username.setIsval(username.isValid()); %>
     <ul style="font-size: 20px;">
         <li>

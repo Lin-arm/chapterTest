@@ -9,8 +9,11 @@
 <html>
 <head>
     <title>用户输入用户名界面</title>
+    <link rel="shortcut icon" href="https://pic1.imgdb.cn/item/635d4e8716f2c2beb1396ca7.png">
 </head>
 <body>
+    <jsp:include page="/jsp/header.jsp"/><br><br>
+
     <form action="judge.jsp" method="post" style="font-size: 20px;">
         <li>
             请输入用户名： <input type="text" name="username"/>只能由字母、数字或者下划线组成
@@ -20,5 +23,6 @@
         </li>
     </form>
 
+    <jsp:include page="/jsp/footer.jsp"/>
 </body>
 </html>
