@@ -16,16 +16,23 @@ public class Example01 {
         Connection conn = null;
 
         try {
+            //1.注册数据库的驱动
             Class.forName("com.mysql.cj.jdbc.Driver");
+
+            //2.通过DriverManager获取数据库连接
             String url = "jdbc:mysql://127.0.0.1:3306/ch10?serverTimezone=GMT%2B8";
             String username = "root";
             String password = "123456";
-
             conn = DriverManager.getConnection(url,username,password);
+
+            //3.通过 Connection对象 获取 Statement对象
             stmt = conn.createStatement();
+
+            //4.使用 Statement执行 SQL语句
             String sql = "SELECT * FROM users";
             rs = stmt.executeQuery(sql);
 
+            //5.打印 ResultSet结果集
             System.out.println("id | name   | pwd    | email         | birthday ");
             while (rs.next()){
                 int id = rs.getInt("id");
@@ -39,6 +46,7 @@ public class Example01 {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }finally {
+            //6.回收数据库资源
             if (rs != null) {
                 try {
                     rs.close();

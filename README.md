@@ -65,7 +65,10 @@ ch08-Model2-用户注册:
   - 输入用户名
   - Model2 用户注册
 - *第9章 - Servlet的高级特性*(暂无)
-- *第10章 - JDBC*(暂无)
+- *第10章 - JDBC*
+  - Example01`(用于读取数据库ch10中的users表，并将读取到的数据输出到控制台)`
+  - Example02`(将新数据写入users表)` 
+
 - *第11章 - 数据库连接池与DBUtils工具*(暂无)
 - *第12章 - Ajax*(暂无)
 - *第13~15章 - 网上蛋糕商城*(暂无)
@@ -81,12 +84,14 @@ ch08-Model2-用户注册:
 
 #### &#127752;软件&环境
 
-|   软件or环境    |   版本   |         安装路径          |
-| :-------------: | :------: | :-----------------------: |
-|  IntelliJ IDEA  | 2020.3.4 | D:\IntelliJ IDEA 2020.3.4 |
-|     Tomcat      | 10.0.141 |     D:\tomcat-10.0.14     |
-|      JDK18      | 18.0.2.1 |   D:\Java\jdk-18.0.2.1    |
-| Windows10专业版 |   20H2   |            C盘            |
+|   软件or环境    |   版本   |                  安装路径                   |
+| :-------------: | :------: | :-----------------------------------------: |
+|  IntelliJ IDEA  | 2020.3.4 |          D:\IntelliJ IDEA 2020.3.4          |
+|     Tomcat      | 10.0.141 |              D:\tomcat-10.0.14              |
+|      JDK18      | 18.0.2.1 |            D:\Java\jdk-18.0.2.1             |
+| Windows10专业版 |   20H2   |                     C盘                     |
+|      MySQL      | 8.0.31.0 | C:\Program Files\MySQL\MySQL Server 8.0\bin |
+| Navicat Premium | 15.0.13  |      D:\Navicat_15\Navicat Premium 15       |
 
 仅供参考
 
