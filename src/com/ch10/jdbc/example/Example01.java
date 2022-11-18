@@ -33,7 +33,7 @@ public class Example01 {
             rs = stmt.executeQuery(sql);
 
             //5.打印 ResultSet结果集
-            System.out.println("id | name   | pwd    | email         | birthday ");
+            System.out.println("id | name   | password    | email         | birthday ");
             while (rs.next()){
                 int id = rs.getInt("id");
                 String name = rs.getString("name");

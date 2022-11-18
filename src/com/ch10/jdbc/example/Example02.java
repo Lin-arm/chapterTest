@@ -3,7 +3,7 @@ package com.ch10.jdbc.example;
 import java.sql.*;
 
 /**
- * @className: Example01
+ * @className: Example02
  * @author: Lin
  * @描述: PreparedStatement(增强版的stmt)，将新数据写入users表
  * @date: 2022/11/18 0:59
