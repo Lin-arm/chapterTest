@@ -1,9 +1,9 @@
-package com.ch10.jdbc.example;
+package com.ch10.jdbc.example.test;
 
 /**
  * @className: TestZh_CN
  * @author: Lin
- * @ÃèÊö: ²âÊÔÖÐÎÄÂÒÂë
+ * @ÃèÊö: 中文乱码调试
  * @date: 2022/11/19 1:43
  * @version: 1.0
  */

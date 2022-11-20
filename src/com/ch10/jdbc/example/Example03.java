@@ -23,7 +23,7 @@ public class Example03 {
             conn = DriverManager.getConnection(url,username,passwod);
             String sql = "SELECT * FROM users";
 
-            //2.创建Statement对象并设置常量
+            //2.创建Statement对象并设置常量                  可滚动                             只读
             stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 
             //3.执行SQL并将获取的信息存放在ResultSet中
