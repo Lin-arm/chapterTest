@@ -113,7 +113,7 @@ ul li.double a p{
 a,abbr{
     text-decoration: none;   /*去链接下划线*/
 }
-.ch04,.ch05,.ch06,.ch07,.ch08,.ch_test{
+.ch04,.ch05,.ch06,.ch07,.ch08,.ch10,.ch_test{
     width: 100%;
     height: 100%;
     border-radius: 30px;
@@ -131,5 +131,5 @@ ul li a:hover{
     display: inline;       /* 去掉自动换行 */
 }
 .h4_student{
-    font-family: 全新硬笔行书简;
+    font-family: 全新硬笔行书简,华文行楷,楷体;
 }

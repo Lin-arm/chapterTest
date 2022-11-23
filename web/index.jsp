@@ -192,11 +192,26 @@
           </ul>
         </div>
         <div class="chapter">
+          <h3><abbr title="第10章-JDBC">&#128640;ch10</abbr></h3><br>
+          <ul title="ch10">
+            <li class="double">
+              <a href="jsp/ch10/loginJdbc.jsp" target="_blank" class="ch10">
+                <p>用户登录</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="chapter">
           <h3><abbr title="个人测试">&#10024;Test</abbr></h3><br>
           <ul title="ch_test">
             <li class="double">
               <a href="jsp/modal.jsp" target="_blank" class="ch_test">
                 <p>弹窗</p>
+              </a>
+            </li>
+            <li class="double">
+              <a href="UserAgentUtils" target="_blank" class="ch_test">
+                <p>浏览器解析工具</p>
               </a>
             </li>
           </ul>

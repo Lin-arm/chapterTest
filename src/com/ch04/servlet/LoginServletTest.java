@@ -6,10 +6,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-import javax.swing.*;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @className: LoginServlet
@@ -41,18 +38,6 @@ public class LoginServletTest extends HttpServlet {
             resp.getWriter().println("<script language='javascript'>alert('用户名或密码错误');window.location.href='html/ch04/userLogin.html';</script>");
 //            resp.sendRedirect("userLogin.html");
         }
-
     }
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.service(req, resp);
-        System.out.println("doGet()--------");
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        this.service(req, resp);
-        System.out.println("doPost()--------");
-    }
 }

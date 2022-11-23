@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
-    <file url="file://$PROJECT_DIR$/src/com/ch10/jdbc/example/test/DeleteUserTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/ch10/jdbc/example/test/FindUserByIdTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/ch10/jdbc/example/test/InsertUserTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/ch10/jdbc/example/controller/UserLoginServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/ch10/jdbc/example/dao/UsersDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/ch10/jdbc/example/domain/JUser.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/ch10/jdbc/example/test/TestZh_CN.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/ch10/jdbc/example/test/UpdateUserTest.java" charset="UTF-8" />
-    <file url="PROJECT" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/ch10/jdbc/example/utils/JDBCUtils.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
