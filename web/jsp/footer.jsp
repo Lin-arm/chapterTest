@@ -12,25 +12,9 @@
 <%--  IDEA静态资源加载不出来解决方法: ${pageContext.request.contextPath}/ --%>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/footer.css">
 <%--    <link rel="stylesheet" href="css/footer.css">--%>
+    <script src="${pageContext.request.contextPath}/js/showTime.js" type="text/javascript"></script>  <%--计算当前时间--%>
 </head>
 <body>
-    <script>
-        var t = null;
-        t = setTimeout(time, 1000); //開始运行
-        function time() {
-            clearTimeout(t); //清除定时器
-            date = new Date();
-            var year = date.getFullYear();
-            var mt = date.getMonth() + 1;
-            var day = date.getDate();
-            var hours = date.getHours(); //获取时
-            var min = date.getMinutes(); //获取分
-            var sec = date.getSeconds(); //获取秒
-            document.querySelector(".showTime").innerHTML =
-                "当前时间：" + year +"年"+ mt +"月" + day +"-"+ hours +":" + min +":" + sec ;
-            t = setTimeout(time, 1000); //设定定时器，循环运行
-        }
-    </script>
 
     <footer>
         <div id="div_student">
